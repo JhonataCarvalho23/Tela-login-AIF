@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(80, 79, 79);
+    background: url(foto-fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 .container h1 {
     color: whitesmoke;
@@ -32,9 +33,18 @@ body {
     font-size: 25px;
 }
 
-.text-box{
-    padding-top: 3px;
-    border-radius: 50px;
+.text-box input {
+    padding-top: 2px;
+    background-color: rgba(249, 249, 249, 0.382);
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;
+}
+.text-box ::placeholder {
+    padding-left: 10px;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteudo {
@@ -46,4 +56,6 @@ body {
     align-items: center;
     padding: 20px;
     margin: 20px;
+    height: 250px;
+    max-width: 300px;
 }
